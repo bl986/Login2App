@@ -1,0 +1,25 @@
+1. Setup:
+
+terminal: run "npm init" in terminal and press enter many times to create this json file
+btw u cannot put comments in json files otherwise will give you errors (esp when installing npm independencies)
+
+terminal: "npm i express (- application server) ejs (- templating language)" to install package lock json
+
+terminal: development independencies installation: "npm i --save-dev nodemon dotenv"
+nodemon restarts server when changes applies, dotenv to save environment variables
+
+manually create a gitignore file
+
+in package.json, change "test": "echo \"Error: no test specified\" && exit 1" to "devStart": "nodemon server.js"
+
+manually create server.js file
+
+terminal: npm run devStart
+
+New terminal: "npm i bcrypt"
+
+New terminal: "npm i passport passport-local express-session express-flash"
+
+manually create passport-config.js file
+
+npm i method-override
